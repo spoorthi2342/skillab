@@ -1,6 +1,6 @@
-import express from "express"
-import authRouter from './route/blog.router.js'
-import blogRouter from './route/blog.router.js'
+import express from "express";
+import authRouter from '../routs/authentication.route.js'
+import blogRouter from '../routs/blog.rout.js'
  
 
 const app=express()

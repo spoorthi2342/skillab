@@ -1,4 +1,4 @@
-import { Token } from "../util/Token";
+import { Token } from "../util/Token.js";
 
 const authorauth= async (req,res,next)=>{
     if(!Token)
